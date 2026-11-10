@@ -1,0 +1,1579 @@
+{
+ "meta": {
+  "image": "atlas.png",
+  "w": 1024,
+  "h": 2048
+ },
+ "frames": {
+  "p_driller_walk_0": {
+   "x": 81,
+   "y": 396,
+   "w": 73,
+   "h": 101,
+   "ax": 32,
+   "ay": 101
+  },
+  "p_driller_walk_1": {
+   "x": 401,
+   "y": 292,
+   "w": 78,
+   "h": 102,
+   "ax": 31,
+   "ay": 102
+  },
+  "p_driller_walk_2": {
+   "x": 481,
+   "y": 292,
+   "w": 78,
+   "h": 102,
+   "ax": 36,
+   "ay": 102
+  },
+  "p_driller_walk_3": {
+   "x": 561,
+   "y": 292,
+   "w": 72,
+   "h": 102,
+   "ax": 34,
+   "ay": 102
+  },
+  "p_driller_attack_0": {
+   "x": 786,
+   "y": 396,
+   "w": 103,
+   "h": 97,
+   "ax": 32,
+   "ay": 97
+  },
+  "p_driller_attack_1": {
+   "x": 112,
+   "y": 499,
+   "w": 132,
+   "h": 95,
+   "ax": 33,
+   "ay": 95
+  },
+  "p_driller_attack_2": {
+   "x": 2,
+   "y": 499,
+   "w": 108,
+   "h": 96,
+   "ax": 33,
+   "ay": 96
+  },
+  "p_wrench_walk_0": {
+   "x": 299,
+   "y": 396,
+   "w": 77,
+   "h": 100,
+   "ax": 37,
+   "ay": 100
+  },
+  "p_wrench_walk_1": {
+   "x": 2,
+   "y": 396,
+   "w": 77,
+   "h": 101,
+   "ax": 36,
+   "ay": 101
+  },
+  "p_wrench_walk_2": {
+   "x": 156,
+   "y": 396,
+   "w": 73,
+   "h": 101,
+   "ax": 35,
+   "ay": 101
+  },
+  "p_wrench_walk_3": {
+   "x": 378,
+   "y": 396,
+   "w": 75,
+   "h": 100,
+   "ax": 38,
+   "ay": 100
+  },
+  "p_wrench_attack_0": {
+   "x": 682,
+   "y": 396,
+   "w": 102,
+   "h": 99,
+   "ax": 43,
+   "ay": 99
+  },
+  "p_wrench_attack_1": {
+   "x": 573,
+   "y": 396,
+   "w": 107,
+   "h": 99,
+   "ax": 42,
+   "ay": 99
+  },
+  "p_wrench_attack_2": {
+   "x": 455,
+   "y": 396,
+   "w": 116,
+   "h": 99,
+   "ax": 47,
+   "ay": 99
+  },
+  "p_hammer_walk_0": {
+   "x": 320,
+   "y": 292,
+   "w": 79,
+   "h": 102,
+   "ax": 37,
+   "ay": 102
+  },
+  "p_hammer_walk_1": {
+   "x": 635,
+   "y": 292,
+   "w": 86,
+   "h": 101,
+   "ax": 35,
+   "ay": 101
+  },
+  "p_hammer_walk_2": {
+   "x": 811,
+   "y": 292,
+   "w": 83,
+   "h": 101,
+   "ax": 37,
+   "ay": 101
+  },
+  "p_hammer_walk_3": {
+   "x": 125,
+   "y": 292,
+   "w": 106,
+   "h": 102,
+   "ax": 53,
+   "ay": 102
+  },
+  "p_hammer_attack_0": {
+   "x": 2,
+   "y": 292,
+   "w": 121,
+   "h": 102,
+   "ax": 44,
+   "ay": 102
+  },
+  "p_hammer_attack_1": {
+   "x": 654,
+   "y": 166,
+   "w": 154,
+   "h": 103,
+   "ax": 40,
+   "ay": 103
+  },
+  "p_hammer_attack_2": {
+   "x": 810,
+   "y": 166,
+   "w": 136,
+   "h": 102,
+   "ax": 35,
+   "ay": 102
+  },
+  "p_engineer_walk_0": {
+   "x": 231,
+   "y": 396,
+   "w": 66,
+   "h": 101,
+   "ax": 35,
+   "ay": 101
+  },
+  "p_engineer_walk_1": {
+   "x": 896,
+   "y": 292,
+   "w": 79,
+   "h": 101,
+   "ax": 36,
+   "ay": 101
+  },
+  "p_engineer_walk_2": {
+   "x": 723,
+   "y": 292,
+   "w": 86,
+   "h": 101,
+   "ax": 35,
+   "ay": 101
+  },
+  "p_engineer_walk_3": {
+   "x": 233,
+   "y": 292,
+   "w": 85,
+   "h": 102,
+   "ax": 35,
+   "ay": 102
+  },
+  "p_engineer_attack_0": {
+   "x": 369,
+   "y": 166,
+   "w": 84,
+   "h": 111,
+   "ax": 36,
+   "ay": 111
+  },
+  "p_engineer_attack_1": {
+   "x": 273,
+   "y": 166,
+   "w": 94,
+   "h": 111,
+   "ax": 37,
+   "ay": 111
+  },
+  "p_engineer_attack_2": {
+   "x": 455,
+   "y": 166,
+   "w": 98,
+   "h": 110,
+   "ax": 39,
+   "ay": 110
+  },
+  "e_zombie": {
+   "x": 2,
+   "y": 166,
+   "w": 120,
+   "h": 124,
+   "ax": 73,
+   "ay": 124
+  },
+  "e_zombie2": {
+   "x": 551,
+   "y": 2,
+   "w": 127,
+   "h": 137,
+   "ax": 76,
+   "ay": 137
+  },
+  "e_brute": {
+   "x": 402,
+   "y": 2,
+   "w": 147,
+   "h": 146,
+   "ax": 73,
+   "ay": 146
+  },
+  "e_mixer": {
+   "x": 204,
+   "y": 2,
+   "w": 196,
+   "h": 152,
+   "ax": 98,
+   "ay": 152
+  },
+  "e_cone": {
+   "x": 680,
+   "y": 2,
+   "w": 124,
+   "h": 137,
+   "ax": 62,
+   "ay": 137
+  },
+  "e_barrel": {
+   "x": 806,
+   "y": 2,
+   "w": 120,
+   "h": 132,
+   "ax": 62,
+   "ay": 132
+  },
+  "e_barrier": {
+   "x": 124,
+   "y": 166,
+   "w": 147,
+   "h": 121,
+   "ax": 77,
+   "ay": 121
+  },
+  "e_claw": {
+   "x": 2,
+   "y": 2,
+   "w": 200,
+   "h": 162,
+   "ax": 88,
+   "ay": 162
+  },
+  "w_drill": {
+   "x": 623,
+   "y": 755,
+   "w": 104,
+   "h": 67,
+   "ax": 52,
+   "ay": 34
+  },
+  "w_nailgun": {
+   "x": 900,
+   "y": 499,
+   "w": 97,
+   "h": 80,
+   "ax": 49,
+   "ay": 40
+  },
+  "w_saw": {
+   "x": 100,
+   "y": 597,
+   "w": 83,
+   "h": 80,
+   "ax": 42,
+   "ay": 40
+  },
+  "w_hammer": {
+   "x": 370,
+   "y": 499,
+   "w": 95,
+   "h": 88,
+   "ax": 48,
+   "ay": 44
+  },
+  "w_jackhammer": {
+   "x": 246,
+   "y": 499,
+   "w": 75,
+   "h": 95,
+   "ax": 38,
+   "ay": 48
+  },
+  "w_chainsaw": {
+   "x": 262,
+   "y": 597,
+   "w": 126,
+   "h": 77,
+   "ax": 63,
+   "ay": 39
+  },
+  "w_wrench": {
+   "x": 757,
+   "y": 499,
+   "w": 75,
+   "h": 82,
+   "ax": 38,
+   "ay": 41
+  },
+  "w_pipewrench": {
+   "x": 467,
+   "y": 499,
+   "w": 84,
+   "h": 87,
+   "ax": 42,
+   "ay": 44
+  },
+  "w_caulkgun": {
+   "x": 511,
+   "y": 755,
+   "w": 110,
+   "h": 67,
+   "ax": 55,
+   "ay": 34
+  },
+  "w_turret": {
+   "x": 553,
+   "y": 499,
+   "w": 118,
+   "h": 86,
+   "ax": 59,
+   "ay": 43
+  },
+  "w_drone": {
+   "x": 670,
+   "y": 597,
+   "w": 123,
+   "h": 74,
+   "ax": 62,
+   "ay": 37
+  },
+  "w_mixer": {
+   "x": 555,
+   "y": 166,
+   "w": 97,
+   "h": 104,
+   "ax": 49,
+   "ay": 52
+  },
+  "w_barrier": {
+   "x": 891,
+   "y": 396,
+   "w": 109,
+   "h": 96,
+   "ax": 55,
+   "ay": 48
+  },
+  "proj_0": {
+   "x": 749,
+   "y": 1006,
+   "w": 50,
+   "h": 21,
+   "ax": 25,
+   "ay": 11
+  },
+  "proj_1": {
+   "x": 914,
+   "y": 1006,
+   "w": 27,
+   "h": 17,
+   "ax": 14,
+   "ay": 9
+  },
+  "proj_2": {
+   "x": 864,
+   "y": 1006,
+   "w": 48,
+   "h": 19,
+   "ax": 24,
+   "ay": 10
+  },
+  "proj_3": {
+   "x": 320,
+   "y": 1006,
+   "w": 34,
+   "h": 33,
+   "ax": 17,
+   "ay": 17
+  },
+  "proj_4": {
+   "x": 605,
+   "y": 955,
+   "w": 81,
+   "h": 39,
+   "ax": 41,
+   "ay": 20
+  },
+  "proj_5": {
+   "x": 688,
+   "y": 955,
+   "w": 77,
+   "h": 39,
+   "ax": 39,
+   "ay": 20
+  },
+  "proj_6": {
+   "x": 488,
+   "y": 894,
+   "w": 109,
+   "h": 54,
+   "ax": 55,
+   "ay": 27
+  },
+  "proj_7": {
+   "x": 367,
+   "y": 894,
+   "w": 119,
+   "h": 54,
+   "ax": 60,
+   "ay": 27
+  },
+  "proj_8": {
+   "x": 713,
+   "y": 894,
+   "w": 84,
+   "h": 50,
+   "ax": 42,
+   "ay": 25
+  },
+  "proj_9": {
+   "x": 482,
+   "y": 1006,
+   "w": 99,
+   "h": 28,
+   "ax": 50,
+   "ay": 14
+  },
+  "proj_10": {
+   "x": 981,
+   "y": 1006,
+   "w": 41,
+   "h": 13,
+   "ax": 21,
+   "ay": 7
+  },
+  "proj_11": {
+   "x": 801,
+   "y": 1006,
+   "w": 61,
+   "h": 20,
+   "ax": 31,
+   "ay": 10
+  },
+  "proj_12": {
+   "x": 874,
+   "y": 894,
+   "w": 117,
+   "h": 49,
+   "ax": 59,
+   "ay": 25
+  },
+  "proj_13": {
+   "x": 206,
+   "y": 1006,
+   "w": 52,
+   "h": 35,
+   "ax": 26,
+   "ay": 18
+  },
+  "proj_14": {
+   "x": 901,
+   "y": 955,
+   "w": 42,
+   "h": 37,
+   "ax": 21,
+   "ay": 19
+  },
+  "proj_15": {
+   "x": 804,
+   "y": 955,
+   "w": 55,
+   "h": 38,
+   "ax": 28,
+   "ay": 19
+  },
+  "proj_16": {
+   "x": 631,
+   "y": 1006,
+   "w": 33,
+   "h": 25,
+   "ax": 17,
+   "ay": 13
+  },
+  "proj_17": {
+   "x": 57,
+   "y": 1006,
+   "w": 49,
+   "h": 36,
+   "ax": 25,
+   "ay": 18
+  },
+  "proj_18": {
+   "x": 560,
+   "y": 955,
+   "w": 43,
+   "h": 40,
+   "ax": 22,
+   "ay": 20
+  },
+  "i_helmet": {
+   "x": 89,
+   "y": 827,
+   "w": 82,
+   "h": 65,
+   "ax": 41,
+   "ay": 33
+  },
+  "i_vest": {
+   "x": 815,
+   "y": 679,
+   "w": 67,
+   "h": 71,
+   "ax": 34,
+   "ay": 36
+  },
+  "i_boots": {
+   "x": 665,
+   "y": 679,
+   "w": 73,
+   "h": 71,
+   "ax": 37,
+   "ay": 36
+  },
+  "i_gloves": {
+   "x": 884,
+   "y": 679,
+   "w": 67,
+   "h": 71,
+   "ax": 34,
+   "ay": 36
+  },
+  "i_clipboard": {
+   "x": 209,
+   "y": 679,
+   "w": 59,
+   "h": 73,
+   "ax": 30,
+   "ay": 37
+  },
+  "i_blueprint": {
+   "x": 156,
+   "y": 755,
+   "w": 70,
+   "h": 69,
+   "ax": 35,
+   "ay": 35
+  },
+  "i_gear": {
+   "x": 740,
+   "y": 679,
+   "w": 73,
+   "h": 71,
+   "ax": 37,
+   "ay": 36
+  },
+  "i_bolt": {
+   "x": 228,
+   "y": 755,
+   "w": 70,
+   "h": 69,
+   "ax": 35,
+   "ay": 35
+  },
+  "i_steelbar": {
+   "x": 173,
+   "y": 827,
+   "w": 82,
+   "h": 65,
+   "ax": 41,
+   "ay": 33
+  },
+  "i_ibeam": {
+   "x": 368,
+   "y": 755,
+   "w": 70,
+   "h": 68,
+   "ax": 35,
+   "ay": 34
+  },
+  "i_brick": {
+   "x": 482,
+   "y": 827,
+   "w": 75,
+   "h": 61,
+   "ax": 38,
+   "ay": 31
+  },
+  "i_cementbag": {
+   "x": 185,
+   "y": 597,
+   "w": 75,
+   "h": 78,
+   "ax": 38,
+   "ay": 39
+  },
+  "i_toolbox": {
+   "x": 390,
+   "y": 597,
+   "w": 81,
+   "h": 75,
+   "ax": 41,
+   "ay": 38
+  },
+  "i_coffee": {
+   "x": 834,
+   "y": 499,
+   "w": 64,
+   "h": 81,
+   "ax": 32,
+   "ay": 41
+  },
+  "i_energy": {
+   "x": 621,
+   "y": 597,
+   "w": 47,
+   "h": 75,
+   "ax": 24,
+   "ay": 38
+  },
+  "i_beacon": {
+   "x": 804,
+   "y": 755,
+   "w": 62,
+   "h": 67,
+   "ax": 31,
+   "ay": 34
+  },
+  "i_hook": {
+   "x": 323,
+   "y": 499,
+   "w": 45,
+   "h": 89,
+   "ax": 23,
+   "ay": 45
+  },
+  "i_cone": {
+   "x": 552,
+   "y": 597,
+   "w": 67,
+   "h": 75,
+   "ax": 34,
+   "ay": 38
+  },
+  "i_grate": {
+   "x": 405,
+   "y": 827,
+   "w": 75,
+   "h": 62,
+   "ax": 38,
+   "ay": 31
+  },
+  "fx_explosion_0": {
+   "x": 963,
+   "y": 1006,
+   "w": 16,
+   "h": 16,
+   "ax": 8,
+   "ay": 8
+  },
+  "fx_explosion_1": {
+   "x": 719,
+   "y": 1006,
+   "w": 28,
+   "h": 22,
+   "ax": 14,
+   "ay": 11
+  },
+  "fx_explosion_2": {
+   "x": 149,
+   "y": 955,
+   "w": 50,
+   "h": 45,
+   "ax": 25,
+   "ay": 23
+  },
+  "fx_explosion_3": {
+   "x": 306,
+   "y": 894,
+   "w": 59,
+   "h": 55,
+   "ax": 30,
+   "ay": 28
+  },
+  "fx_explosion_4": {
+   "x": 257,
+   "y": 827,
+   "w": 76,
+   "h": 65,
+   "ax": 38,
+   "ay": 33
+  },
+  "fx_explosion_5": {
+   "x": 2,
+   "y": 597,
+   "w": 96,
+   "h": 80,
+   "ax": 48,
+   "ay": 40
+  },
+  "fx_slash_0": {
+   "x": 102,
+   "y": 955,
+   "w": 45,
+   "h": 46,
+   "ax": 23,
+   "ay": 23
+  },
+  "fx_slash_1": {
+   "x": 120,
+   "y": 894,
+   "w": 52,
+   "h": 56,
+   "ax": 26,
+   "ay": 28
+  },
+  "fx_slash_2": {
+   "x": 559,
+   "y": 827,
+   "w": 47,
+   "h": 61,
+   "ax": 24,
+   "ay": 31
+  },
+  "fx_slash_3": {
+   "x": 300,
+   "y": 755,
+   "w": 66,
+   "h": 69,
+   "ax": 33,
+   "ay": 35
+  },
+  "fx_slash_4": {
+   "x": 81,
+   "y": 755,
+   "w": 73,
+   "h": 70,
+   "ax": 37,
+   "ay": 35
+  },
+  "fx_dust_0": {
+   "x": 64,
+   "y": 894,
+   "w": 54,
+   "h": 58,
+   "ax": 27,
+   "ay": 29
+  },
+  "fx_dust_1": {
+   "x": 951,
+   "y": 827,
+   "w": 60,
+   "h": 59,
+   "ax": 30,
+   "ay": 30
+  },
+  "fx_dust_2": {
+   "x": 335,
+   "y": 827,
+   "w": 68,
+   "h": 63,
+   "ax": 34,
+   "ay": 32
+  },
+  "fx_dust_3": {
+   "x": 2,
+   "y": 755,
+   "w": 77,
+   "h": 70,
+   "ax": 39,
+   "ay": 35
+  },
+  "fx_dust_4": {
+   "x": 795,
+   "y": 597,
+   "w": 84,
+   "h": 74,
+   "ax": 42,
+   "ay": 37
+  },
+  "fx_smoke_small_0": {
+   "x": 226,
+   "y": 894,
+   "w": 78,
+   "h": 55,
+   "ax": 39,
+   "ay": 28
+  },
+  "fx_smoke_small_1": {
+   "x": 2,
+   "y": 827,
+   "w": 85,
+   "h": 65,
+   "ax": 43,
+   "ay": 33
+  },
+  "fx_smoke_small_2": {
+   "x": 608,
+   "y": 827,
+   "w": 149,
+   "h": 60,
+   "ax": 75,
+   "ay": 30
+  },
+  "fx_smoke_small_3": {
+   "x": 868,
+   "y": 755,
+   "w": 88,
+   "h": 65,
+   "ax": 44,
+   "ay": 33
+  },
+  "fx_spark_0": {
+   "x": 759,
+   "y": 827,
+   "w": 100,
+   "h": 59,
+   "ax": 50,
+   "ay": 30
+  },
+  "fx_spark_1": {
+   "x": 647,
+   "y": 894,
+   "w": 64,
+   "h": 52,
+   "ax": 32,
+   "ay": 26
+  },
+  "fx_spark_2": {
+   "x": 311,
+   "y": 955,
+   "w": 60,
+   "h": 44,
+   "ax": 30,
+   "ay": 22
+  },
+  "fx_spark_3": {
+   "x": 386,
+   "y": 1006,
+   "w": 57,
+   "h": 31,
+   "ax": 29,
+   "ay": 16
+  },
+  "fx_spark_4": {
+   "x": 583,
+   "y": 1006,
+   "w": 46,
+   "h": 25,
+   "ax": 23,
+   "ay": 13
+  },
+  "fx_ring_0": {
+   "x": 53,
+   "y": 955,
+   "w": 47,
+   "h": 46,
+   "ax": 24,
+   "ay": 23
+  },
+  "fx_ring_1": {
+   "x": 2,
+   "y": 894,
+   "w": 60,
+   "h": 59,
+   "ax": 30,
+   "ay": 30
+  },
+  "fx_ring_2": {
+   "x": 440,
+   "y": 755,
+   "w": 69,
+   "h": 68,
+   "ax": 35,
+   "ay": 34
+  },
+  "fx_ring_3": {
+   "x": 330,
+   "y": 679,
+   "w": 74,
+   "h": 72,
+   "ax": 37,
+   "ay": 36
+  },
+  "fx_rubble_0": {
+   "x": 108,
+   "y": 1006,
+   "w": 47,
+   "h": 36,
+   "ax": 24,
+   "ay": 18
+  },
+  "fx_rubble_1": {
+   "x": 945,
+   "y": 955,
+   "w": 41,
+   "h": 37,
+   "ax": 21,
+   "ay": 19
+  },
+  "fx_rubble_2": {
+   "x": 373,
+   "y": 955,
+   "w": 52,
+   "h": 43,
+   "ax": 26,
+   "ay": 22
+  },
+  "fx_rubble_3": {
+   "x": 157,
+   "y": 1006,
+   "w": 47,
+   "h": 36,
+   "ax": 24,
+   "ay": 18
+  },
+  "fx_rubble_4": {
+   "x": 427,
+   "y": 955,
+   "w": 64,
+   "h": 41,
+   "ax": 32,
+   "ay": 21
+  },
+  "fx_rubble_5": {
+   "x": 242,
+   "y": 955,
+   "w": 67,
+   "h": 44,
+   "ax": 34,
+   "ay": 22
+  },
+  "fx_rubble_6": {
+   "x": 2,
+   "y": 1006,
+   "w": 53,
+   "h": 36,
+   "ax": 27,
+   "ay": 18
+  },
+  "fx_smoke_big_0": {
+   "x": 673,
+   "y": 499,
+   "w": 82,
+   "h": 82,
+   "ax": 41,
+   "ay": 41
+  },
+  "fx_smoke_big_1": {
+   "x": 881,
+   "y": 597,
+   "w": 82,
+   "h": 74,
+   "ax": 41,
+   "ay": 37
+  },
+  "fx_smoke_big_2": {
+   "x": 729,
+   "y": 755,
+   "w": 73,
+   "h": 67,
+   "ax": 37,
+   "ay": 34
+  },
+  "fx_smoke_big_3": {
+   "x": 406,
+   "y": 679,
+   "w": 177,
+   "h": 71,
+   "ax": 89,
+   "ay": 36
+  },
+  "fx_heal_0": {
+   "x": 2,
+   "y": 1044,
+   "w": 11,
+   "h": 11,
+   "ax": 6,
+   "ay": 6
+  },
+  "fx_heal_1": {
+   "x": 666,
+   "y": 1006,
+   "w": 25,
+   "h": 24,
+   "ax": 13,
+   "ay": 12
+  },
+  "fx_heal_2": {
+   "x": 693,
+   "y": 1006,
+   "w": 24,
+   "h": 24,
+   "ax": 12,
+   "ay": 12
+  },
+  "fx_heal_3": {
+   "x": 445,
+   "y": 1006,
+   "w": 35,
+   "h": 31,
+   "ax": 18,
+   "ay": 16
+  },
+  "fx_heal_4": {
+   "x": 861,
+   "y": 955,
+   "w": 38,
+   "h": 38,
+   "ax": 19,
+   "ay": 19
+  },
+  "fx_heal_5": {
+   "x": 2,
+   "y": 955,
+   "w": 49,
+   "h": 49,
+   "ax": 25,
+   "ay": 25
+  },
+  "fx_heal_6": {
+   "x": 473,
+   "y": 597,
+   "w": 77,
+   "h": 75,
+   "ax": 39,
+   "ay": 38
+  },
+  "fx_shield_0": {
+   "x": 260,
+   "y": 1006,
+   "w": 58,
+   "h": 33,
+   "ax": 29,
+   "ay": 17
+  },
+  "fx_shield_1": {
+   "x": 493,
+   "y": 955,
+   "w": 65,
+   "h": 40,
+   "ax": 33,
+   "ay": 20
+  },
+  "fx_shield_2": {
+   "x": 799,
+   "y": 894,
+   "w": 73,
+   "h": 50,
+   "ax": 37,
+   "ay": 25
+  },
+  "fx_shield_3": {
+   "x": 861,
+   "y": 827,
+   "w": 88,
+   "h": 59,
+   "ax": 44,
+   "ay": 30
+  },
+  "fx_levelup_0": {
+   "x": 943,
+   "y": 1006,
+   "w": 18,
+   "h": 16,
+   "ax": 9,
+   "ay": 8
+  },
+  "fx_levelup_1": {
+   "x": 356,
+   "y": 1006,
+   "w": 28,
+   "h": 32,
+   "ax": 14,
+   "ay": 16
+  },
+  "fx_levelup_2": {
+   "x": 767,
+   "y": 955,
+   "w": 35,
+   "h": 39,
+   "ax": 18,
+   "ay": 20
+  },
+  "fx_levelup_3": {
+   "x": 201,
+   "y": 955,
+   "w": 39,
+   "h": 45,
+   "ax": 20,
+   "ay": 23
+  },
+  "fx_levelup_4": {
+   "x": 599,
+   "y": 894,
+   "w": 46,
+   "h": 54,
+   "ax": 23,
+   "ay": 27
+  },
+  "fx_levelup_5": {
+   "x": 174,
+   "y": 894,
+   "w": 50,
+   "h": 56,
+   "ax": 25,
+   "ay": 28
+  },
+  "i_magnet": {
+   "x": 585,
+   "y": 679,
+   "w": 78,
+   "h": 71,
+   "ax": 39,
+   "ay": 36
+  },
+  "fx_spikes_0": {
+   "x": 170,
+   "y": 679,
+   "w": 37,
+   "h": 74,
+   "ax": 19,
+   "ay": 37
+  },
+  "fx_spikes_1": {
+   "x": 127,
+   "y": 679,
+   "w": 41,
+   "h": 74,
+   "ax": 21,
+   "ay": 37
+  },
+  "fx_spikes_2": {
+   "x": 82,
+   "y": 679,
+   "w": 43,
+   "h": 74,
+   "ax": 22,
+   "ay": 37
+  },
+  "fx_spikes_3": {
+   "x": 953,
+   "y": 679,
+   "w": 47,
+   "h": 71,
+   "ax": 24,
+   "ay": 36
+  },
+  "fx_spikes_4": {
+   "x": 270,
+   "y": 679,
+   "w": 58,
+   "h": 73,
+   "ax": 29,
+   "ay": 37
+  },
+  "fx_spikes_5": {
+   "x": 2,
+   "y": 679,
+   "w": 78,
+   "h": 74,
+   "ax": 39,
+   "ay": 37
+  }
+ },
+ "animations": {
+  "p_driller_walk": [
+   "p_driller_walk_0",
+   "p_driller_walk_1",
+   "p_driller_walk_2",
+   "p_driller_walk_3"
+  ],
+  "p_driller_attack": [
+   "p_driller_attack_0",
+   "p_driller_attack_1",
+   "p_driller_attack_2"
+  ],
+  "p_wrench_walk": [
+   "p_wrench_walk_0",
+   "p_wrench_walk_1",
+   "p_wrench_walk_2",
+   "p_wrench_walk_3"
+  ],
+  "p_wrench_attack": [
+   "p_wrench_attack_0",
+   "p_wrench_attack_1",
+   "p_wrench_attack_2"
+  ],
+  "p_hammer_walk": [
+   "p_hammer_walk_0",
+   "p_hammer_walk_1",
+   "p_hammer_walk_2",
+   "p_hammer_walk_3"
+  ],
+  "p_hammer_attack": [
+   "p_hammer_attack_0",
+   "p_hammer_attack_1",
+   "p_hammer_attack_2"
+  ],
+  "p_engineer_walk": [
+   "p_engineer_walk_0",
+   "p_engineer_walk_1",
+   "p_engineer_walk_2",
+   "p_engineer_walk_3"
+  ],
+  "p_engineer_attack": [
+   "p_engineer_attack_0",
+   "p_engineer_attack_1",
+   "p_engineer_attack_2"
+  ],
+  "e_zombie": [
+   "e_zombie"
+  ],
+  "e_zombie2": [
+   "e_zombie2"
+  ],
+  "e_brute": [
+   "e_brute"
+  ],
+  "e_mixer": [
+   "e_mixer"
+  ],
+  "e_cone": [
+   "e_cone"
+  ],
+  "e_barrel": [
+   "e_barrel"
+  ],
+  "e_barrier": [
+   "e_barrier"
+  ],
+  "e_claw": [
+   "e_claw"
+  ],
+  "w_drill": [
+   "w_drill"
+  ],
+  "w_nailgun": [
+   "w_nailgun"
+  ],
+  "w_saw": [
+   "w_saw"
+  ],
+  "w_hammer": [
+   "w_hammer"
+  ],
+  "w_jackhammer": [
+   "w_jackhammer"
+  ],
+  "w_chainsaw": [
+   "w_chainsaw"
+  ],
+  "w_wrench": [
+   "w_wrench"
+  ],
+  "w_pipewrench": [
+   "w_pipewrench"
+  ],
+  "w_caulkgun": [
+   "w_caulkgun"
+  ],
+  "w_turret": [
+   "w_turret"
+  ],
+  "w_drone": [
+   "w_drone"
+  ],
+  "w_mixer": [
+   "w_mixer"
+  ],
+  "w_barrier": [
+   "w_barrier"
+  ],
+  "proj_0": [
+   "proj_0"
+  ],
+  "proj_1": [
+   "proj_1"
+  ],
+  "proj_2": [
+   "proj_2"
+  ],
+  "proj_3": [
+   "proj_3"
+  ],
+  "proj_4": [
+   "proj_4"
+  ],
+  "proj_5": [
+   "proj_5"
+  ],
+  "proj_6": [
+   "proj_6"
+  ],
+  "proj_7": [
+   "proj_7"
+  ],
+  "proj_8": [
+   "proj_8"
+  ],
+  "proj_9": [
+   "proj_9"
+  ],
+  "proj_10": [
+   "proj_10"
+  ],
+  "proj_11": [
+   "proj_11"
+  ],
+  "proj_12": [
+   "proj_12"
+  ],
+  "proj_13": [
+   "proj_13"
+  ],
+  "proj_14": [
+   "proj_14"
+  ],
+  "proj_15": [
+   "proj_15"
+  ],
+  "proj_16": [
+   "proj_16"
+  ],
+  "proj_17": [
+   "proj_17"
+  ],
+  "proj_18": [
+   "proj_18"
+  ],
+  "proj_bullet": [
+   "proj_0",
+   "proj_1"
+  ],
+  "proj_nail": [
+   "proj_2",
+   "proj_3"
+  ],
+  "proj_drillbit": [
+   "proj_4"
+  ],
+  "proj_hammer": [
+   "proj_5"
+  ],
+  "proj_spikes": [
+   "proj_6"
+  ],
+  "proj_saw_slash": [
+   "proj_7"
+  ],
+  "proj_wrench_slash": [
+   "proj_8"
+  ],
+  "proj_laser": [
+   "proj_9"
+  ],
+  "proj_pellet": [
+   "proj_10"
+  ],
+  "proj_shot": [
+   "proj_11"
+  ],
+  "proj_beam": [
+   "proj_12"
+  ],
+  "proj_ember": [
+   "proj_13"
+  ],
+  "proj_arrow": [
+   "proj_14"
+  ],
+  "proj_rock": [
+   "proj_15",
+   "proj_17"
+  ],
+  "proj_spark": [
+   "proj_16",
+   "proj_18"
+  ],
+  "i_helmet": [
+   "i_helmet"
+  ],
+  "i_vest": [
+   "i_vest"
+  ],
+  "i_boots": [
+   "i_boots"
+  ],
+  "i_gloves": [
+   "i_gloves"
+  ],
+  "i_clipboard": [
+   "i_clipboard"
+  ],
+  "i_blueprint": [
+   "i_blueprint"
+  ],
+  "i_gear": [
+   "i_gear"
+  ],
+  "i_bolt": [
+   "i_bolt"
+  ],
+  "i_steelbar": [
+   "i_steelbar"
+  ],
+  "i_ibeam": [
+   "i_ibeam"
+  ],
+  "i_brick": [
+   "i_brick"
+  ],
+  "i_cementbag": [
+   "i_cementbag"
+  ],
+  "i_toolbox": [
+   "i_toolbox"
+  ],
+  "i_coffee": [
+   "i_coffee"
+  ],
+  "i_energy": [
+   "i_energy"
+  ],
+  "i_beacon": [
+   "i_beacon"
+  ],
+  "i_hook": [
+   "i_hook"
+  ],
+  "i_cone": [
+   "i_cone"
+  ],
+  "i_grate": [
+   "i_grate"
+  ],
+  "fx_explosion": [
+   "fx_explosion_0",
+   "fx_explosion_1",
+   "fx_explosion_2",
+   "fx_explosion_3",
+   "fx_explosion_4",
+   "fx_explosion_5"
+  ],
+  "fx_slash": [
+   "fx_slash_0",
+   "fx_slash_1",
+   "fx_slash_2",
+   "fx_slash_3",
+   "fx_slash_4"
+  ],
+  "fx_dust": [
+   "fx_dust_0",
+   "fx_dust_1",
+   "fx_dust_2",
+   "fx_dust_3",
+   "fx_dust_4"
+  ],
+  "fx_smoke_small": [
+   "fx_smoke_small_0",
+   "fx_smoke_small_1",
+   "fx_smoke_small_2",
+   "fx_smoke_small_3"
+  ],
+  "fx_spark": [
+   "fx_spark_0",
+   "fx_spark_1",
+   "fx_spark_2",
+   "fx_spark_3",
+   "fx_spark_4"
+  ],
+  "fx_ring": [
+   "fx_ring_0",
+   "fx_ring_1",
+   "fx_ring_2",
+   "fx_ring_3"
+  ],
+  "fx_rubble": [
+   "fx_rubble_0",
+   "fx_rubble_1",
+   "fx_rubble_2",
+   "fx_rubble_3",
+   "fx_rubble_4",
+   "fx_rubble_5",
+   "fx_rubble_6"
+  ],
+  "fx_smoke_big": [
+   "fx_smoke_big_0",
+   "fx_smoke_big_1",
+   "fx_smoke_big_2",
+   "fx_smoke_big_3"
+  ],
+  "fx_heal": [
+   "fx_heal_0",
+   "fx_heal_1",
+   "fx_heal_2",
+   "fx_heal_3",
+   "fx_heal_4",
+   "fx_heal_5",
+   "fx_heal_6"
+  ],
+  "fx_shield": [
+   "fx_shield_0",
+   "fx_shield_1",
+   "fx_shield_2",
+   "fx_shield_3"
+  ],
+  "fx_levelup": [
+   "fx_levelup_0",
+   "fx_levelup_1",
+   "fx_levelup_2",
+   "fx_levelup_3",
+   "fx_levelup_4",
+   "fx_levelup_5"
+  ],
+  "i_magnet": [
+   "i_magnet"
+  ],
+  "fx_spikes": [
+   "fx_spikes_0",
+   "fx_spikes_1",
+   "fx_spikes_2",
+   "fx_spikes_3",
+   "fx_spikes_4",
+   "fx_spikes_5"
+  ]
+ }
+}

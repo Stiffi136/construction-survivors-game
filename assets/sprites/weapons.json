@@ -1,0 +1,770 @@
+{
+ "meta": {
+  "image": "weapons.png",
+  "cell": 80,
+  "size": {
+   "w": 480,
+   "h": 480
+  }
+ },
+ "frames": {
+  "akkuschrauber_lv1_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 20,
+    "y": 26,
+    "w": 40,
+    "h": 29
+   },
+   "source": {
+    "x": 130,
+    "y": 492
+   }
+  },
+  "akkuschrauber_lv2_0": {
+   "frame": {
+    "x": 80,
+    "y": 0,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 98,
+    "y": 26,
+    "w": 43,
+    "h": 29
+   },
+   "source": {
+    "x": 208,
+    "y": 492
+   }
+  },
+  "akkuschrauber_lv3_0": {
+   "frame": {
+    "x": 160,
+    "y": 0,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 167,
+    "y": 25,
+    "w": 66,
+    "h": 30
+   },
+   "source": {
+    "x": 305,
+    "y": 492
+   }
+  },
+  "akkuschrauber_lv4_0": {
+   "frame": {
+    "x": 240,
+    "y": 0,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 260,
+    "y": 26,
+    "w": 39,
+    "h": 28
+   },
+   "source": {
+    "x": 424,
+    "y": 492
+   }
+  },
+  "akkuschrauber_lv5_0": {
+   "frame": {
+    "x": 320,
+    "y": 0,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 335,
+    "y": 26,
+    "w": 50,
+    "h": 29
+   },
+   "source": {
+    "x": 525,
+    "y": 492
+   }
+  },
+  "akkuschrauber_lv6_0": {
+   "frame": {
+    "x": 400,
+    "y": 0,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 406,
+    "y": 23,
+    "w": 68,
+    "h": 34
+   },
+   "source": {
+    "x": 628,
+    "y": 492
+   }
+  },
+  "nagelpistole_lv1_0": {
+   "frame": {
+    "x": 0,
+    "y": 80,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 20,
+    "y": 106,
+    "w": 39,
+    "h": 28
+   },
+   "source": {
+    "x": 130,
+    "y": 529
+   }
+  },
+  "nagelpistole_lv2_0": {
+   "frame": {
+    "x": 80,
+    "y": 80,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 97,
+    "y": 106,
+    "w": 45,
+    "h": 29
+   },
+   "source": {
+    "x": 208,
+    "y": 529
+   }
+  },
+  "nagelpistole_lv3_0": {
+   "frame": {
+    "x": 160,
+    "y": 80,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 168,
+    "y": 106,
+    "w": 64,
+    "h": 28
+   },
+   "source": {
+    "x": 305,
+    "y": 529
+   }
+  },
+  "nagelpistole_lv4_0": {
+   "frame": {
+    "x": 240,
+    "y": 80,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 256,
+    "y": 105,
+    "w": 48,
+    "h": 30
+   },
+   "source": {
+    "x": 424,
+    "y": 529
+   }
+  },
+  "nagelpistole_lv5_0": {
+   "frame": {
+    "x": 320,
+    "y": 80,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 331,
+    "y": 106,
+    "w": 58,
+    "h": 28
+   },
+   "source": {
+    "x": 525,
+    "y": 529
+   }
+  },
+  "nagelpistole_lv6_0": {
+   "frame": {
+    "x": 400,
+    "y": 80,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 406,
+    "y": 104,
+    "w": 68,
+    "h": 32
+   },
+   "source": {
+    "x": 628,
+    "y": 529
+   }
+  },
+  "presslufthammer_lv1_0": {
+   "frame": {
+    "x": 0,
+    "y": 160,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 25,
+    "y": 188,
+    "w": 29,
+    "h": 24
+   },
+   "source": {
+    "x": 130,
+    "y": 565
+   }
+  },
+  "presslufthammer_lv2_0": {
+   "frame": {
+    "x": 80,
+    "y": 160,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 107,
+    "y": 184,
+    "w": 26,
+    "h": 32
+   },
+   "source": {
+    "x": 208,
+    "y": 565
+   }
+  },
+  "presslufthammer_lv3_0": {
+   "frame": {
+    "x": 160,
+    "y": 160,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 174,
+    "y": 184,
+    "w": 51,
+    "h": 32
+   },
+   "source": {
+    "x": 305,
+    "y": 565
+   }
+  },
+  "presslufthammer_lv4_0": {
+   "frame": {
+    "x": 240,
+    "y": 160,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 267,
+    "y": 184,
+    "w": 26,
+    "h": 32
+   },
+   "source": {
+    "x": 424,
+    "y": 565
+   }
+  },
+  "presslufthammer_lv5_0": {
+   "frame": {
+    "x": 320,
+    "y": 160,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 346,
+    "y": 184,
+    "w": 27,
+    "h": 32
+   },
+   "source": {
+    "x": 525,
+    "y": 565
+   }
+  },
+  "presslufthammer_lv6_0": {
+   "frame": {
+    "x": 400,
+    "y": 160,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 414,
+    "y": 184,
+    "w": 51,
+    "h": 32
+   },
+   "source": {
+    "x": 628,
+    "y": 565
+   }
+  },
+  "bauzaunwerfer_lv1_0": {
+   "frame": {
+    "x": 0,
+    "y": 240,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 22,
+    "y": 266,
+    "w": 36,
+    "h": 29
+   },
+   "source": {
+    "x": 130,
+    "y": 600
+   }
+  },
+  "bauzaunwerfer_lv2_0": {
+   "frame": {
+    "x": 80,
+    "y": 240,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 102,
+    "y": 266,
+    "w": 35,
+    "h": 28
+   },
+   "source": {
+    "x": 208,
+    "y": 600
+   }
+  },
+  "bauzaunwerfer_lv3_0": {
+   "frame": {
+    "x": 160,
+    "y": 240,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 169,
+    "y": 266,
+    "w": 62,
+    "h": 28
+   },
+   "source": {
+    "x": 305,
+    "y": 600
+   }
+  },
+  "bauzaunwerfer_lv4_0": {
+   "frame": {
+    "x": 240,
+    "y": 240,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 256,
+    "y": 266,
+    "w": 48,
+    "h": 29
+   },
+   "source": {
+    "x": 424,
+    "y": 600
+   }
+  },
+  "bauzaunwerfer_lv5_0": {
+   "frame": {
+    "x": 320,
+    "y": 240,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 331,
+    "y": 266,
+    "w": 57,
+    "h": 28
+   },
+   "source": {
+    "x": 525,
+    "y": 600
+   }
+  },
+  "bauzaunwerfer_lv6_0": {
+   "frame": {
+    "x": 400,
+    "y": 240,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 404,
+    "y": 266,
+    "w": 72,
+    "h": 29
+   },
+   "source": {
+    "x": 628,
+    "y": 600
+   }
+  },
+  "betonmischer_lv1_0": {
+   "frame": {
+    "x": 0,
+    "y": 320,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 23,
+    "y": 347,
+    "w": 34,
+    "h": 26
+   },
+   "source": {
+    "x": 130,
+    "y": 634
+   }
+  },
+  "betonmischer_lv2_0": {
+   "frame": {
+    "x": 80,
+    "y": 320,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 101,
+    "y": 349,
+    "w": 37,
+    "h": 23
+   },
+   "source": {
+    "x": 208,
+    "y": 634
+   }
+  },
+  "betonmischer_lv3_0": {
+   "frame": {
+    "x": 160,
+    "y": 320,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 164,
+    "y": 348,
+    "w": 71,
+    "h": 24
+   },
+   "source": {
+    "x": 305,
+    "y": 634
+   }
+  },
+  "betonmischer_lv4_0": {
+   "frame": {
+    "x": 240,
+    "y": 320,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 261,
+    "y": 346,
+    "w": 38,
+    "h": 28
+   },
+   "source": {
+    "x": 424,
+    "y": 634
+   }
+  },
+  "betonmischer_lv5_0": {
+   "frame": {
+    "x": 320,
+    "y": 320,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 334,
+    "y": 349,
+    "w": 52,
+    "h": 22
+   },
+   "source": {
+    "x": 525,
+    "y": 634
+   }
+  },
+  "betonmischer_lv6_0": {
+   "frame": {
+    "x": 400,
+    "y": 320,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 405,
+    "y": 346,
+    "w": 69,
+    "h": 28
+   },
+   "source": {
+    "x": 628,
+    "y": 634
+   }
+  },
+  "kranhaken_lv1_0": {
+   "frame": {
+    "x": 0,
+    "y": 400,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 31,
+    "y": 425,
+    "w": 18,
+    "h": 30
+   },
+   "source": {
+    "x": 130,
+    "y": 668
+   }
+  },
+  "kranhaken_lv2_0": {
+   "frame": {
+    "x": 80,
+    "y": 400,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 110,
+    "y": 426,
+    "w": 19,
+    "h": 29
+   },
+   "source": {
+    "x": 208,
+    "y": 668
+   }
+  },
+  "kranhaken_lv3_0": {
+   "frame": {
+    "x": 160,
+    "y": 400,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 177,
+    "y": 424,
+    "w": 45,
+    "h": 33
+   },
+   "source": {
+    "x": 305,
+    "y": 668
+   }
+  },
+  "kranhaken_lv4_0": {
+   "frame": {
+    "x": 240,
+    "y": 400,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 269,
+    "y": 426,
+    "w": 22,
+    "h": 29
+   },
+   "source": {
+    "x": 424,
+    "y": 668
+   }
+  },
+  "kranhaken_lv5_0": {
+   "frame": {
+    "x": 320,
+    "y": 400,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 336,
+    "y": 423,
+    "w": 48,
+    "h": 35
+   },
+   "source": {
+    "x": 525,
+    "y": 668
+   }
+  },
+  "kranhaken_lv6_0": {
+   "frame": {
+    "x": 400,
+    "y": 400,
+    "w": 80,
+    "h": 80
+   },
+   "trimmed": {
+    "x": 410,
+    "y": 422,
+    "w": 60,
+    "h": 36
+   },
+   "source": {
+    "x": 628,
+    "y": 668
+   }
+  }
+ },
+ "animations": {
+  "akkuschrauber_lv1": [
+   "akkuschrauber_lv1_0"
+  ],
+  "akkuschrauber_lv2": [
+   "akkuschrauber_lv2_0"
+  ],
+  "akkuschrauber_lv3": [
+   "akkuschrauber_lv3_0"
+  ],
+  "akkuschrauber_lv4": [
+   "akkuschrauber_lv4_0"
+  ],
+  "akkuschrauber_lv5": [
+   "akkuschrauber_lv5_0"
+  ],
+  "akkuschrauber_lv6": [
+   "akkuschrauber_lv6_0"
+  ],
+  "nagelpistole_lv1": [
+   "nagelpistole_lv1_0"
+  ],
+  "nagelpistole_lv2": [
+   "nagelpistole_lv2_0"
+  ],
+  "nagelpistole_lv3": [
+   "nagelpistole_lv3_0"
+  ],
+  "nagelpistole_lv4": [
+   "nagelpistole_lv4_0"
+  ],
+  "nagelpistole_lv5": [
+   "nagelpistole_lv5_0"
+  ],
+  "nagelpistole_lv6": [
+   "nagelpistole_lv6_0"
+  ],
+  "presslufthammer_lv1": [
+   "presslufthammer_lv1_0"
+  ],
+  "presslufthammer_lv2": [
+   "presslufthammer_lv2_0"
+  ],
+  "presslufthammer_lv3": [
+   "presslufthammer_lv3_0"
+  ],
+  "presslufthammer_lv4": [
+   "presslufthammer_lv4_0"
+  ],
+  "presslufthammer_lv5": [
+   "presslufthammer_lv5_0"
+  ],
+  "presslufthammer_lv6": [
+   "presslufthammer_lv6_0"
+  ],
+  "bauzaunwerfer_lv1": [
+   "bauzaunwerfer_lv1_0"
+  ],
+  "bauzaunwerfer_lv2": [
+   "bauzaunwerfer_lv2_0"
+  ],
+  "bauzaunwerfer_lv3": [
+   "bauzaunwerfer_lv3_0"
+  ],
+  "bauzaunwerfer_lv4": [
+   "bauzaunwerfer_lv4_0"
+  ],
+  "bauzaunwerfer_lv5": [
+   "bauzaunwerfer_lv5_0"
+  ],
+  "bauzaunwerfer_lv6": [
+   "bauzaunwerfer_lv6_0"
+  ],
+  "betonmischer_lv1": [
+   "betonmischer_lv1_0"
+  ],
+  "betonmischer_lv2": [
+   "betonmischer_lv2_0"
+  ],
+  "betonmischer_lv3": [
+   "betonmischer_lv3_0"
+  ],
+  "betonmischer_lv4": [
+   "betonmischer_lv4_0"
+  ],
+  "betonmischer_lv5": [
+   "betonmischer_lv5_0"
+  ],
+  "betonmischer_lv6": [
+   "betonmischer_lv6_0"
+  ],
+  "kranhaken_lv1": [
+   "kranhaken_lv1_0"
+  ],
+  "kranhaken_lv2": [
+   "kranhaken_lv2_0"
+  ],
+  "kranhaken_lv3": [
+   "kranhaken_lv3_0"
+  ],
+  "kranhaken_lv4": [
+   "kranhaken_lv4_0"
+  ],
+  "kranhaken_lv5": [
+   "kranhaken_lv5_0"
+  ],
+  "kranhaken_lv6": [
+   "kranhaken_lv6_0"
+  ]
+ }
+}

@@ -1,0 +1,637 @@
+{
+ "meta": {
+  "image": "terrain.png",
+  "w": 1024,
+  "h": 1024,
+  "tile": 128,
+  "extrude": 2
+ },
+ "frames": {
+  "g_asphalt": {
+   "x": 2,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "asphalt"
+  },
+  "g_asphalt_cracked": {
+   "x": 134,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "asphalt"
+  },
+  "g_asphalt_hazard": {
+   "x": 266,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "hazard"
+  },
+  "g_asphalt_centerline": {
+   "x": 398,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "marking"
+  },
+  "g_asphalt_puddle": {
+   "x": 530,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "asphalt"
+  },
+  "g_asphalt_tracks": {
+   "x": 662,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "asphalt"
+  },
+  "g_asphalt_manhole": {
+   "x": 794,
+   "y": 2,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "symbol"
+  },
+  "g_asphalt_rust": {
+   "x": 2,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "asphalt"
+  },
+  "g_concrete": {
+   "x": 134,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "concrete"
+  },
+  "g_concrete_cracked": {
+   "x": 266,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "concrete"
+  },
+  "g_concrete_hazard": {
+   "x": 398,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "hazard"
+  },
+  "g_concrete_slabs": {
+   "x": 530,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "concrete"
+  },
+  "g_concrete_stained": {
+   "x": 662,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "concrete"
+  },
+  "g_concrete_mossy": {
+   "x": 794,
+   "y": 134,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "concrete"
+  },
+  "g_concrete_puddles": {
+   "x": 2,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "concrete"
+  },
+  "g_concrete_rubble": {
+   "x": 134,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "rubble"
+  },
+  "g_dirt": {
+   "x": 266,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "dirt"
+  },
+  "g_dirt_smooth": {
+   "x": 398,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "dirt"
+  },
+  "g_dirt_stones": {
+   "x": 530,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "dirt"
+  },
+  "g_dirt_tracks": {
+   "x": 662,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "dirt"
+  },
+  "g_mud_puddle": {
+   "x": 794,
+   "y": 266,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "mud"
+  },
+  "g_mud_puddles": {
+   "x": 2,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "mud"
+  },
+  "g_dirt_rocks": {
+   "x": 134,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "dirt"
+  },
+  "g_dirt_tire": {
+   "x": 266,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "dirt"
+  },
+  "g_sand": {
+   "x": 398,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "sand"
+  },
+  "g_sand_pebbles": {
+   "x": 530,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "sand"
+  },
+  "g_gravel_gray": {
+   "x": 662,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "gravel"
+  },
+  "g_gravel_gold": {
+   "x": 794,
+   "y": 398,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "gravel"
+  },
+  "g_gravel_stones": {
+   "x": 2,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "gravel"
+  },
+  "g_rubble_block": {
+   "x": 134,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "rubble"
+  },
+  "g_rubble_brick": {
+   "x": 266,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "rubble"
+  },
+  "g_rubble_debris": {
+   "x": 398,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "rubble"
+  },
+  "g_cobble_gray": {
+   "x": 530,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "paving"
+  },
+  "g_cobble_mossy": {
+   "x": 662,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "paving"
+  },
+  "g_brick_red": {
+   "x": 794,
+   "y": 530,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "paving"
+  },
+  "g_paving_beige": {
+   "x": 2,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "paving"
+  },
+  "g_grate_floor": {
+   "x": 134,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "grate"
+  },
+  "g_grate_grass": {
+   "x": 266,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "grate"
+  },
+  "g_diamond_plate": {
+   "x": 398,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": true,
+   "category": "metal"
+  },
+  "g_plate_hazard": {
+   "x": 530,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "hazard"
+  },
+  "g_grate_dark": {
+   "x": 662,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "grate"
+  },
+  "g_drain_grate": {
+   "x": 794,
+   "y": 662,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "grate"
+  },
+  "g_hazard_stripes": {
+   "x": 2,
+   "y": 794,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "hazard"
+  },
+  "g_corner_yellow": {
+   "x": 134,
+   "y": 794,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "marking"
+  },
+  "g_corner_white": {
+   "x": 266,
+   "y": 794,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "marking"
+  },
+  "g_arrow": {
+   "x": 398,
+   "y": 794,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "symbol"
+  },
+  "g_helmet": {
+   "x": 530,
+   "y": 794,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "symbol"
+  },
+  "g_tools_sign": {
+   "x": 662,
+   "y": 794,
+   "w": 128,
+   "h": 128,
+   "ax": 64,
+   "ay": 64,
+   "seamless": false,
+   "category": "symbol"
+  }
+ },
+ "animations": {
+  "g_asphalt": [
+   "g_asphalt"
+  ],
+  "g_asphalt_cracked": [
+   "g_asphalt_cracked"
+  ],
+  "g_asphalt_hazard": [
+   "g_asphalt_hazard"
+  ],
+  "g_asphalt_centerline": [
+   "g_asphalt_centerline"
+  ],
+  "g_asphalt_puddle": [
+   "g_asphalt_puddle"
+  ],
+  "g_asphalt_tracks": [
+   "g_asphalt_tracks"
+  ],
+  "g_asphalt_manhole": [
+   "g_asphalt_manhole"
+  ],
+  "g_asphalt_rust": [
+   "g_asphalt_rust"
+  ],
+  "g_concrete": [
+   "g_concrete"
+  ],
+  "g_concrete_cracked": [
+   "g_concrete_cracked"
+  ],
+  "g_concrete_hazard": [
+   "g_concrete_hazard"
+  ],
+  "g_concrete_slabs": [
+   "g_concrete_slabs"
+  ],
+  "g_concrete_stained": [
+   "g_concrete_stained"
+  ],
+  "g_concrete_mossy": [
+   "g_concrete_mossy"
+  ],
+  "g_concrete_puddles": [
+   "g_concrete_puddles"
+  ],
+  "g_concrete_rubble": [
+   "g_concrete_rubble"
+  ],
+  "g_dirt": [
+   "g_dirt"
+  ],
+  "g_dirt_smooth": [
+   "g_dirt_smooth"
+  ],
+  "g_dirt_stones": [
+   "g_dirt_stones"
+  ],
+  "g_dirt_tracks": [
+   "g_dirt_tracks"
+  ],
+  "g_mud_puddle": [
+   "g_mud_puddle"
+  ],
+  "g_mud_puddles": [
+   "g_mud_puddles"
+  ],
+  "g_dirt_rocks": [
+   "g_dirt_rocks"
+  ],
+  "g_dirt_tire": [
+   "g_dirt_tire"
+  ],
+  "g_sand": [
+   "g_sand"
+  ],
+  "g_sand_pebbles": [
+   "g_sand_pebbles"
+  ],
+  "g_gravel_gray": [
+   "g_gravel_gray"
+  ],
+  "g_gravel_gold": [
+   "g_gravel_gold"
+  ],
+  "g_gravel_stones": [
+   "g_gravel_stones"
+  ],
+  "g_rubble_block": [
+   "g_rubble_block"
+  ],
+  "g_rubble_brick": [
+   "g_rubble_brick"
+  ],
+  "g_rubble_debris": [
+   "g_rubble_debris"
+  ],
+  "g_cobble_gray": [
+   "g_cobble_gray"
+  ],
+  "g_cobble_mossy": [
+   "g_cobble_mossy"
+  ],
+  "g_brick_red": [
+   "g_brick_red"
+  ],
+  "g_paving_beige": [
+   "g_paving_beige"
+  ],
+  "g_grate_floor": [
+   "g_grate_floor"
+  ],
+  "g_grate_grass": [
+   "g_grate_grass"
+  ],
+  "g_diamond_plate": [
+   "g_diamond_plate"
+  ],
+  "g_plate_hazard": [
+   "g_plate_hazard"
+  ],
+  "g_grate_dark": [
+   "g_grate_dark"
+  ],
+  "g_drain_grate": [
+   "g_drain_grate"
+  ],
+  "g_hazard_stripes": [
+   "g_hazard_stripes"
+  ],
+  "g_corner_yellow": [
+   "g_corner_yellow"
+  ],
+  "g_corner_white": [
+   "g_corner_white"
+  ],
+  "g_arrow": [
+   "g_arrow"
+  ],
+  "g_helmet": [
+   "g_helmet"
+  ],
+  "g_tools_sign": [
+   "g_tools_sign"
+  ]
+ }
+}

@@ -1,0 +1,1166 @@
+{
+ "meta": {
+  "image": "props.png",
+  "w": 1024,
+  "h": 2048
+ },
+ "frames": {
+  "v_excavator": {
+   "x": 502,
+   "y": 2,
+   "w": 183,
+   "h": 159,
+   "ax": 92,
+   "ay": 159
+  },
+  "v_mixer_truck": {
+   "x": 782,
+   "y": 2,
+   "w": 183,
+   "h": 151,
+   "ax": 92,
+   "ay": 151
+  },
+  "v_dump_truck": {
+   "x": 185,
+   "y": 277,
+   "w": 167,
+   "h": 129,
+   "ax": 84,
+   "ay": 129
+  },
+  "v_forklift": {
+   "x": 354,
+   "y": 277,
+   "w": 128,
+   "h": 123,
+   "ax": 64,
+   "ay": 123
+  },
+  "o_generator": {
+   "x": 823,
+   "y": 539,
+   "w": 79,
+   "h": 97,
+   "ax": 40,
+   "ay": 97
+  },
+  "o_scaffold": {
+   "x": 209,
+   "y": 2,
+   "w": 151,
+   "h": 208,
+   "ax": 76,
+   "ay": 208
+  },
+  "o_toilet": {
+   "x": 2,
+   "y": 277,
+   "w": 85,
+   "h": 138,
+   "ax": 43,
+   "ay": 138
+  },
+  "o_container": {
+   "x": 304,
+   "y": 417,
+   "w": 162,
+   "h": 112,
+   "ax": 81,
+   "ay": 112
+  },
+  "o_floodlight": {
+   "x": 362,
+   "y": 2,
+   "w": 59,
+   "h": 190,
+   "ax": 30,
+   "ay": 190
+  },
+  "o_crane": {
+   "x": 2,
+   "y": 2,
+   "w": 205,
+   "h": 273,
+   "ax": 103,
+   "ay": 273
+  },
+  "b_barricade": {
+   "x": 711,
+   "y": 539,
+   "w": 110,
+   "h": 97,
+   "ax": 55,
+   "ay": 97
+  },
+  "b_jersey_red": {
+   "x": 2,
+   "y": 745,
+   "w": 109,
+   "h": 89,
+   "ax": 55,
+   "ay": 89
+  },
+  "b_jersey_concrete": {
+   "x": 376,
+   "y": 648,
+   "w": 116,
+   "h": 93,
+   "ax": 58,
+   "ay": 93
+  },
+  "b_cone_0": {
+   "x": 870,
+   "y": 921,
+   "w": 54,
+   "h": 70,
+   "ax": 27,
+   "ay": 70
+  },
+  "b_cone_1": {
+   "x": 738,
+   "y": 921,
+   "w": 54,
+   "h": 71,
+   "ax": 27,
+   "ay": 71
+  },
+  "b_drum": {
+   "x": 726,
+   "y": 417,
+   "w": 58,
+   "h": 109,
+   "ax": 29,
+   "ay": 109
+  },
+  "b_barrier_yellow": {
+   "x": 111,
+   "y": 539,
+   "w": 143,
+   "h": 105,
+   "ax": 72,
+   "ay": 105
+  },
+  "b_fence": {
+   "x": 484,
+   "y": 277,
+   "w": 156,
+   "h": 121,
+   "ax": 78,
+   "ay": 121
+  },
+  "b_fence_warning": {
+   "x": 2,
+   "y": 417,
+   "w": 215,
+   "h": 120,
+   "ax": 108,
+   "ay": 120
+  },
+  "b_fence_sign": {
+   "x": 642,
+   "y": 277,
+   "w": 226,
+   "h": 120,
+   "ax": 113,
+   "ay": 120
+  },
+  "s_roadwork": {
+   "x": 219,
+   "y": 417,
+   "w": 83,
+   "h": 116,
+   "ax": 42,
+   "ay": 116
+  },
+  "s_noentry": {
+   "x": 656,
+   "y": 417,
+   "w": 68,
+   "h": 109,
+   "ax": 34,
+   "ay": 109
+  },
+  "s_detour": {
+   "x": 2,
+   "y": 539,
+   "w": 68,
+   "h": 107,
+   "ax": 34,
+   "ay": 107
+  },
+  "s_warning": {
+   "x": 579,
+   "y": 417,
+   "w": 75,
+   "h": 110,
+   "ax": 38,
+   "ay": 110
+  },
+  "s_post_0": {
+   "x": 72,
+   "y": 539,
+   "w": 37,
+   "h": 106,
+   "ax": 19,
+   "ay": 106
+  },
+  "s_trafficlight": {
+   "x": 80,
+   "y": 648,
+   "w": 39,
+   "h": 95,
+   "ax": 20,
+   "ay": 95
+  },
+  "s_post_1": {
+   "x": 121,
+   "y": 648,
+   "w": 34,
+   "h": 95,
+   "ax": 17,
+   "ay": 95
+  },
+  "b_barrier_lights": {
+   "x": 246,
+   "y": 836,
+   "w": 155,
+   "h": 82,
+   "ax": 78,
+   "ay": 82
+  },
+  "m_gravel": {
+   "x": 475,
+   "y": 921,
+   "w": 110,
+   "h": 73,
+   "ax": 55,
+   "ay": 73
+  },
+  "m_sand": {
+   "x": 357,
+   "y": 921,
+   "w": 116,
+   "h": 73,
+   "ax": 58,
+   "ay": 73
+  },
+  "m_blocks": {
+   "x": 815,
+   "y": 745,
+   "w": 110,
+   "h": 84,
+   "ax": 55,
+   "ay": 84
+  },
+  "m_pipes": {
+   "x": 802,
+   "y": 836,
+   "w": 104,
+   "h": 77,
+   "ax": 52,
+   "ay": 77
+  },
+  "m_planks": {
+   "x": 2,
+   "y": 836,
+   "w": 134,
+   "h": 83,
+   "ax": 67,
+   "ay": 83
+  },
+  "m_bricks": {
+   "x": 635,
+   "y": 836,
+   "w": 96,
+   "h": 78,
+   "ax": 48,
+   "ay": 78
+  },
+  "m_cinder": {
+   "x": 2,
+   "y": 921,
+   "w": 86,
+   "h": 76,
+   "ax": 43,
+   "ay": 76
+  },
+  "m_rebar": {
+   "x": 805,
+   "y": 648,
+   "w": 122,
+   "h": 89,
+   "ax": 61,
+   "ay": 89
+  },
+  "m_pallet": {
+   "x": 206,
+   "y": 745,
+   "w": 115,
+   "h": 88,
+   "ax": 58,
+   "ay": 88
+  },
+  "m_cable_spool": {
+   "x": 285,
+   "y": 648,
+   "w": 89,
+   "h": 94,
+   "ax": 45,
+   "ay": 94
+  },
+  "m_crate": {
+   "x": 322,
+   "y": 539,
+   "w": 98,
+   "h": 101,
+   "ax": 49,
+   "ay": 101
+  },
+  "m_barrel_blue": {
+   "x": 527,
+   "y": 539,
+   "w": 64,
+   "h": 100,
+   "ax": 32,
+   "ay": 100
+  },
+  "m_barrel_red": {
+   "x": 256,
+   "y": 539,
+   "w": 64,
+   "h": 104,
+   "ax": 32,
+   "ay": 104
+  },
+  "m_crate_small": {
+   "x": 904,
+   "y": 539,
+   "w": 91,
+   "h": 95,
+   "ax": 46,
+   "ay": 95
+  },
+  "m_box_green": {
+   "x": 403,
+   "y": 836,
+   "w": 90,
+   "h": 81,
+   "ax": 45,
+   "ay": 81
+  },
+  "m_toolbox_red": {
+   "x": 405,
+   "y": 999,
+   "w": 71,
+   "h": 64,
+   "ax": 36,
+   "ay": 64
+  },
+  "m_toolbox_open": {
+   "x": 113,
+   "y": 745,
+   "w": 91,
+   "h": 89,
+   "ax": 46,
+   "ay": 89
+  },
+  "m_ammo_box": {
+   "x": 587,
+   "y": 921,
+   "w": 84,
+   "h": 71,
+   "ax": 42,
+   "ay": 71
+  },
+  "m_medkit": {
+   "x": 794,
+   "y": 921,
+   "w": 74,
+   "h": 70,
+   "ax": 37,
+   "ay": 70
+  },
+  "m_barrel_blue_small": {
+   "x": 556,
+   "y": 836,
+   "w": 46,
+   "h": 79,
+   "ax": 23,
+   "ay": 79
+  },
+  "m_jerrycan": {
+   "x": 145,
+   "y": 999,
+   "w": 49,
+   "h": 67,
+   "ax": 25,
+   "ay": 67
+  },
+  "m_paint_blue": {
+   "x": 91,
+   "y": 999,
+   "w": 52,
+   "h": 67,
+   "ax": 26,
+   "ay": 67
+  },
+  "m_paint_orange": {
+   "x": 926,
+   "y": 921,
+   "w": 47,
+   "h": 68,
+   "ax": 24,
+   "ay": 68
+  },
+  "m_cement_sacks": {
+   "x": 422,
+   "y": 539,
+   "w": 103,
+   "h": 100,
+   "ax": 52,
+   "ay": 100
+  },
+  "m_ibc_tank": {
+   "x": 468,
+   "y": 417,
+   "w": 109,
+   "h": 111,
+   "ax": 55,
+   "ay": 111
+  },
+  "m_wheelbarrow_red": {
+   "x": 463,
+   "y": 745,
+   "w": 124,
+   "h": 85,
+   "ax": 62,
+   "ay": 85
+  },
+  "m_hand_truck": {
+   "x": 733,
+   "y": 836,
+   "w": 67,
+   "h": 78,
+   "ax": 34,
+   "ay": 78
+  },
+  "m_saw_table": {
+   "x": 2,
+   "y": 648,
+   "w": 76,
+   "h": 95,
+   "ax": 38,
+   "ay": 95
+  },
+  "m_wheelbarrow_blue": {
+   "x": 703,
+   "y": 745,
+   "w": 110,
+   "h": 85,
+   "ax": 55,
+   "ay": 85
+  },
+  "b_fence_wire": {
+   "x": 593,
+   "y": 539,
+   "w": 116,
+   "h": 98,
+   "ax": 58,
+   "ay": 98
+  },
+  "b_fence_wood": {
+   "x": 138,
+   "y": 836,
+   "w": 106,
+   "h": 83,
+   "ax": 53,
+   "ay": 83
+  },
+  "b_jersey_graffiti": {
+   "x": 494,
+   "y": 648,
+   "w": 131,
+   "h": 91,
+   "ax": 66,
+   "ay": 91
+  },
+  "b_jersey_broken": {
+   "x": 157,
+   "y": 648,
+   "w": 126,
+   "h": 94,
+   "ax": 63,
+   "ay": 94
+  },
+  "b_jersey_hazard": {
+   "x": 589,
+   "y": 745,
+   "w": 112,
+   "h": 85,
+   "ax": 56,
+   "ay": 85
+  },
+  "m_tires": {
+   "x": 627,
+   "y": 648,
+   "w": 91,
+   "h": 91,
+   "ax": 46,
+   "ay": 91
+  },
+  "m_spool_small": {
+   "x": 323,
+   "y": 745,
+   "w": 76,
+   "h": 88,
+   "ax": 38,
+   "ay": 88
+  },
+  "b_drum_1": {
+   "x": 495,
+   "y": 836,
+   "w": 59,
+   "h": 81,
+   "ax": 30,
+   "ay": 81
+  },
+  "m_sandbags": {
+   "x": 786,
+   "y": 417,
+   "w": 177,
+   "h": 108,
+   "ax": 89,
+   "ay": 108
+  },
+  "b_hedgehog": {
+   "x": 720,
+   "y": 648,
+   "w": 83,
+   "h": 91,
+   "ax": 42,
+   "ay": 91
+  },
+  "o_lamp_small": {
+   "x": 115,
+   "y": 1068,
+   "w": 51,
+   "h": 57,
+   "ax": 26,
+   "ay": 57
+  },
+  "o_lamp_double": {
+   "x": 401,
+   "y": 745,
+   "w": 60,
+   "h": 86,
+   "ax": 30,
+   "ay": 86
+  },
+  "o_lamp_box": {
+   "x": 196,
+   "y": 999,
+   "w": 44,
+   "h": 67,
+   "ax": 22,
+   "ay": 67
+  },
+  "t_dirt": {
+   "x": 478,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_sand": {
+   "x": 544,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_asphalt_line": {
+   "x": 610,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_asphalt_dark": {
+   "x": 676,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_grass": {
+   "x": 742,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_mud_puddle": {
+   "x": 808,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_rubble": {
+   "x": 874,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "t_grass_rock": {
+   "x": 940,
+   "y": 999,
+   "w": 64,
+   "h": 64,
+   "ax": 32,
+   "ay": 32
+  },
+  "d_wall_corner_stone": {
+   "x": 90,
+   "y": 921,
+   "w": 92,
+   "h": 75,
+   "ax": 46,
+   "ay": 75
+  },
+  "d_wall_slab": {
+   "x": 673,
+   "y": 921,
+   "w": 63,
+   "h": 71,
+   "ax": 32,
+   "ay": 71
+  },
+  "d_wall_corner_wood": {
+   "x": 276,
+   "y": 921,
+   "w": 79,
+   "h": 74,
+   "ax": 40,
+   "ay": 74
+  },
+  "d_wall_corner_stone2": {
+   "x": 184,
+   "y": 921,
+   "w": 90,
+   "h": 75,
+   "ax": 45,
+   "ay": 75
+  },
+  "d_bollard_white": {
+   "x": 168,
+   "y": 1068,
+   "w": 29,
+   "h": 56,
+   "ax": 15,
+   "ay": 56
+  },
+  "d_post_wood": {
+   "x": 604,
+   "y": 836,
+   "w": 29,
+   "h": 79,
+   "ax": 15,
+   "ay": 79
+  },
+  "d_post_steel": {
+   "x": 908,
+   "y": 836,
+   "w": 36,
+   "h": 77,
+   "ax": 18,
+   "ay": 77
+  },
+  "d_post_thin": {
+   "x": 946,
+   "y": 836,
+   "w": 25,
+   "h": 77,
+   "ax": 13,
+   "ay": 77
+  },
+  "d_pipe_elbow": {
+   "x": 275,
+   "y": 999,
+   "w": 65,
+   "h": 66,
+   "ax": 33,
+   "ay": 66
+  },
+  "d_post_mossy": {
+   "x": 242,
+   "y": 999,
+   "w": 31,
+   "h": 67,
+   "ax": 16,
+   "ay": 67
+  },
+  "d_rock_big": {
+   "x": 2,
+   "y": 999,
+   "w": 87,
+   "h": 67,
+   "ax": 44,
+   "ay": 67
+  },
+  "d_grass_tuft": {
+   "x": 342,
+   "y": 999,
+   "w": 61,
+   "h": 66,
+   "ax": 31,
+   "ay": 66
+  },
+  "d_pebbles": {
+   "x": 326,
+   "y": 1068,
+   "w": 67,
+   "h": 45,
+   "ax": 34,
+   "ay": 45
+  },
+  "d_pebble_small": {
+   "x": 607,
+   "y": 1068,
+   "w": 38,
+   "h": 27,
+   "ax": 19,
+   "ay": 27
+  },
+  "d_clover": {
+   "x": 59,
+   "y": 1068,
+   "w": 54,
+   "h": 59,
+   "ax": 27,
+   "ay": 59
+  },
+  "d_rocks_dark": {
+   "x": 493,
+   "y": 1068,
+   "w": 42,
+   "h": 37,
+   "ax": 21,
+   "ay": 37
+  },
+  "d_plank": {
+   "x": 258,
+   "y": 1068,
+   "w": 66,
+   "h": 46,
+   "ax": 33,
+   "ay": 46
+  },
+  "d_flower": {
+   "x": 2,
+   "y": 1068,
+   "w": 55,
+   "h": 61,
+   "ax": 28,
+   "ay": 61
+  },
+  "d_sprout": {
+   "x": 473,
+   "y": 1068,
+   "w": 18,
+   "h": 39,
+   "ax": 9,
+   "ay": 39
+  },
+  "d_stone_block": {
+   "x": 395,
+   "y": 1068,
+   "w": 46,
+   "h": 44,
+   "ax": 23,
+   "ay": 44
+  },
+  "d_brick_red": {
+   "x": 568,
+   "y": 1068,
+   "w": 37,
+   "h": 31,
+   "ax": 19,
+   "ay": 31
+  },
+  "d_can_red": {
+   "x": 537,
+   "y": 1068,
+   "w": 29,
+   "h": 36,
+   "ax": 15,
+   "ay": 36
+  },
+  "d_bush": {
+   "x": 199,
+   "y": 1068,
+   "w": 57,
+   "h": 50,
+   "ax": 29,
+   "ay": 50
+  },
+  "d_tin_can": {
+   "x": 443,
+   "y": 1068,
+   "w": 28,
+   "h": 41,
+   "ax": 14,
+   "ay": 41
+  },
+  "d_ladder": {
+   "x": 89,
+   "y": 277,
+   "w": 94,
+   "h": 131,
+   "ax": 47,
+   "ay": 131
+  },
+  "d_pole_lamp": {
+   "x": 687,
+   "y": 2,
+   "w": 93,
+   "h": 159,
+   "ax": 47,
+   "ay": 159
+  },
+  "d_sign_caution": {
+   "x": 423,
+   "y": 2,
+   "w": 77,
+   "h": 170,
+   "ax": 39,
+   "ay": 170
+  }
+ },
+ "animations": {
+  "v_excavator": [
+   "v_excavator"
+  ],
+  "v_mixer_truck": [
+   "v_mixer_truck"
+  ],
+  "v_dump_truck": [
+   "v_dump_truck"
+  ],
+  "v_forklift": [
+   "v_forklift"
+  ],
+  "o_generator": [
+   "o_generator"
+  ],
+  "o_scaffold": [
+   "o_scaffold"
+  ],
+  "o_toilet": [
+   "o_toilet"
+  ],
+  "o_container": [
+   "o_container"
+  ],
+  "o_floodlight": [
+   "o_floodlight"
+  ],
+  "o_crane": [
+   "o_crane"
+  ],
+  "b_barricade": [
+   "b_barricade"
+  ],
+  "b_jersey_red": [
+   "b_jersey_red"
+  ],
+  "b_jersey_concrete": [
+   "b_jersey_concrete"
+  ],
+  "b_cone_0": [
+   "b_cone_0"
+  ],
+  "b_cone_1": [
+   "b_cone_1"
+  ],
+  "b_drum": [
+   "b_drum"
+  ],
+  "b_barrier_yellow": [
+   "b_barrier_yellow"
+  ],
+  "b_fence": [
+   "b_fence"
+  ],
+  "b_fence_warning": [
+   "b_fence_warning"
+  ],
+  "b_fence_sign": [
+   "b_fence_sign"
+  ],
+  "s_roadwork": [
+   "s_roadwork"
+  ],
+  "s_noentry": [
+   "s_noentry"
+  ],
+  "s_detour": [
+   "s_detour"
+  ],
+  "s_warning": [
+   "s_warning"
+  ],
+  "s_post_0": [
+   "s_post_0"
+  ],
+  "s_trafficlight": [
+   "s_trafficlight"
+  ],
+  "s_post_1": [
+   "s_post_1"
+  ],
+  "b_barrier_lights": [
+   "b_barrier_lights"
+  ],
+  "m_gravel": [
+   "m_gravel"
+  ],
+  "m_sand": [
+   "m_sand"
+  ],
+  "m_blocks": [
+   "m_blocks"
+  ],
+  "m_pipes": [
+   "m_pipes"
+  ],
+  "m_planks": [
+   "m_planks"
+  ],
+  "m_bricks": [
+   "m_bricks"
+  ],
+  "m_cinder": [
+   "m_cinder"
+  ],
+  "m_rebar": [
+   "m_rebar"
+  ],
+  "m_pallet": [
+   "m_pallet"
+  ],
+  "m_cable_spool": [
+   "m_cable_spool"
+  ],
+  "m_crate": [
+   "m_crate"
+  ],
+  "m_barrel_blue": [
+   "m_barrel_blue"
+  ],
+  "m_barrel_red": [
+   "m_barrel_red"
+  ],
+  "m_crate_small": [
+   "m_crate_small"
+  ],
+  "m_box_green": [
+   "m_box_green"
+  ],
+  "m_toolbox_red": [
+   "m_toolbox_red"
+  ],
+  "m_toolbox_open": [
+   "m_toolbox_open"
+  ],
+  "m_ammo_box": [
+   "m_ammo_box"
+  ],
+  "m_medkit": [
+   "m_medkit"
+  ],
+  "m_barrel_blue_small": [
+   "m_barrel_blue_small"
+  ],
+  "m_jerrycan": [
+   "m_jerrycan"
+  ],
+  "m_paint_blue": [
+   "m_paint_blue"
+  ],
+  "m_paint_orange": [
+   "m_paint_orange"
+  ],
+  "m_cement_sacks": [
+   "m_cement_sacks"
+  ],
+  "m_ibc_tank": [
+   "m_ibc_tank"
+  ],
+  "m_wheelbarrow_red": [
+   "m_wheelbarrow_red"
+  ],
+  "m_hand_truck": [
+   "m_hand_truck"
+  ],
+  "m_saw_table": [
+   "m_saw_table"
+  ],
+  "m_wheelbarrow_blue": [
+   "m_wheelbarrow_blue"
+  ],
+  "b_fence_wire": [
+   "b_fence_wire"
+  ],
+  "b_fence_wood": [
+   "b_fence_wood"
+  ],
+  "b_jersey_graffiti": [
+   "b_jersey_graffiti"
+  ],
+  "b_jersey_broken": [
+   "b_jersey_broken"
+  ],
+  "b_jersey_hazard": [
+   "b_jersey_hazard"
+  ],
+  "m_tires": [
+   "m_tires"
+  ],
+  "m_spool_small": [
+   "m_spool_small"
+  ],
+  "b_drum_1": [
+   "b_drum_1"
+  ],
+  "m_sandbags": [
+   "m_sandbags"
+  ],
+  "b_hedgehog": [
+   "b_hedgehog"
+  ],
+  "o_lamp_small": [
+   "o_lamp_small"
+  ],
+  "o_lamp_double": [
+   "o_lamp_double"
+  ],
+  "o_lamp_box": [
+   "o_lamp_box"
+  ],
+  "t_dirt": [
+   "t_dirt"
+  ],
+  "t_sand": [
+   "t_sand"
+  ],
+  "t_asphalt_line": [
+   "t_asphalt_line"
+  ],
+  "t_asphalt_dark": [
+   "t_asphalt_dark"
+  ],
+  "t_grass": [
+   "t_grass"
+  ],
+  "t_mud_puddle": [
+   "t_mud_puddle"
+  ],
+  "t_rubble": [
+   "t_rubble"
+  ],
+  "t_grass_rock": [
+   "t_grass_rock"
+  ],
+  "d_wall_corner_stone": [
+   "d_wall_corner_stone"
+  ],
+  "d_wall_slab": [
+   "d_wall_slab"
+  ],
+  "d_wall_corner_wood": [
+   "d_wall_corner_wood"
+  ],
+  "d_wall_corner_stone2": [
+   "d_wall_corner_stone2"
+  ],
+  "d_bollard_white": [
+   "d_bollard_white"
+  ],
+  "d_post_wood": [
+   "d_post_wood"
+  ],
+  "d_post_steel": [
+   "d_post_steel"
+  ],
+  "d_post_thin": [
+   "d_post_thin"
+  ],
+  "d_pipe_elbow": [
+   "d_pipe_elbow"
+  ],
+  "d_post_mossy": [
+   "d_post_mossy"
+  ],
+  "d_rock_big": [
+   "d_rock_big"
+  ],
+  "d_grass_tuft": [
+   "d_grass_tuft"
+  ],
+  "d_pebbles": [
+   "d_pebbles"
+  ],
+  "d_pebble_small": [
+   "d_pebble_small"
+  ],
+  "d_clover": [
+   "d_clover"
+  ],
+  "d_rocks_dark": [
+   "d_rocks_dark"
+  ],
+  "d_plank": [
+   "d_plank"
+  ],
+  "d_flower": [
+   "d_flower"
+  ],
+  "d_sprout": [
+   "d_sprout"
+  ],
+  "d_stone_block": [
+   "d_stone_block"
+  ],
+  "d_brick_red": [
+   "d_brick_red"
+  ],
+  "d_can_red": [
+   "d_can_red"
+  ],
+  "d_bush": [
+   "d_bush"
+  ],
+  "d_tin_can": [
+   "d_tin_can"
+  ],
+  "d_ladder": [
+   "d_ladder"
+  ],
+  "d_pole_lamp": [
+   "d_pole_lamp"
+  ],
+  "d_sign_caution": [
+   "d_sign_caution"
+  ]
+ }
+}

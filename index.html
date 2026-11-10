@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#1b1710" />
+<title>Construction Survivors</title>
+</head>
+<body>
+<div id="app">
+  <canvas id="game"></canvas>
+  <div id="ui"></div>
+</div>
+<div id="loading"><div class="ld-box"><div class="ld-title">CONSTRUCTION SURVIVORS</div><div class="ld-bar"><div class="ld-fill"></div></div><div class="ld-text">Loading …</div></div></div>
+<div id="errbox" style="display:none"></div>
+<script>
+window.onerror = function (msg, src, line, col, err) {
+  var b = document.getElementById('errbox');
+  if (b) { b.style.display = 'block'; b.textContent += 'Error: ' + msg + (line ? ' (line ' + line + ')' : '') + (err && err.stack ? '\n' + err.stack.split('\n').slice(0,3).join('\n') : '') + '\n'; }
+  var l = document.getElementById('loading'); if (l) { var t = l.querySelector('.ld-text'); if (t) t.textContent = 'Loading failed'; }
+};
+window.addEventListener('unhandledrejection', function (e) { window.onerror(String(e.reason && e.reason.message || e.reason), '', 0, 0, e.reason); });
+</script>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
