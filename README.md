@@ -1,5 +1,7 @@
 # Construction Site Survivors
 
+**▶ Play it live: https://stiffi136.github.io/construction-survivors-game/**
+
 A Survivors-like (in the vein of Vampire Survivors) set on an endless construction site at night. You only move; your tools attack automatically. Survive a 15-minute shift and take down the final boss. Built with TypeScript, three.js, and Vite, and designed for phones first.
 
 ## Features
