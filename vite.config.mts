@@ -54,11 +54,26 @@ function atlasPlugin(): Plugin {
   };
 }
 
+/** Inlines the favicons from public/icons as data URIs (single-file build, no extra requests). */
+function faviconPlugin(): Plugin {
+  const dir = path.resolve(import.meta.dirname, 'public/icons');
+  const uri = (n: number) => 'data:image/png;base64,' + fs.readFileSync(path.join(dir, `icon-${n}.png`)).toString('base64');
+  return {
+    name: 'favicon-inline',
+    transformIndexHtml() {
+      return [
+        { tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '32x32', href: uri(32) }, injectTo: 'head' },
+        { tag: 'link', attrs: { rel: 'apple-touch-icon', sizes: '180x180', href: uri(180) }, injectTo: 'head' },
+      ];
+    },
+  };
+}
+
 export default defineConfig({
   base: './',
   // Atlases are embedded via the virtual module -> no need to copy public/ into dist.
   publicDir: false,
-  plugins: [atlasPlugin(), viteSingleFile()],
+  plugins: [atlasPlugin(), faviconPlugin(), viteSingleFile()],
   build: {
     target: 'es2020',
     assetsInlineLimit: 100_000_000,
